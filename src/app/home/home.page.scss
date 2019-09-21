@@ -1,1 +1,18 @@
+.todoItem {
+    margin-right:10px;
+  }
 
+  
+  ul {
+    margin:0;
+    padding:10px 10px 10px 10px;
+    border-bottom:1px solid #dddddd;
+  }
+  
+  div, ion-list{
+    margin-left:20px;
+  }
+  ion-input{
+    border: 1px #ccc solid;
+    width: 300px;
+  }
