@@ -39,7 +39,6 @@ export class HomePage implements OnInit {
           this.todos.splice(i, 1);
       }
     }
-
     this.todoService.deleteTodo(todoText);
   }
 

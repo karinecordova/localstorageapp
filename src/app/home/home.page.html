@@ -50,7 +50,8 @@
     <ion-item-sliding *ngFor="let todo of todos">
         <ion-item>
             <ion-label text-wrap>
-              <span class="todoItem"(click)="editTodo(todo)">{{todo.text}}
+              <span class="todoItem"(click)="editTodo(todo)">
+                {{todo.text}}
              </span>
             </ion-label>
         </ion-item>

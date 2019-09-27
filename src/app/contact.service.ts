@@ -32,7 +32,7 @@ export class ContactService extends Init {
 
      for(let i = 0; i <todos.length; i++) {
       if(todos[i].text == todoText) {
-          todos.splice(i, 1); //remover elemento de uma lista
+          todos.splice(i, 1) //remover elemento de uma lista
       }
    }
       // Set New Todos
